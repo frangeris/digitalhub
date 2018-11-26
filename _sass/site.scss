@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+  background-color: #F6F7F8;
+  color: #111;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#logo-main {
+  width: 200px;
+}
+
+#footer {
+  background-image: url('/assets/images/footer.png');
+  background-repeat: repeat-x;
+  height: 200px;
+  width: 100%;
+}
+
+
+.paginate-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.paginate-links li a {
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  background: #fff;
+  border-radius: 100%!important;
+  -webkit-filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1));
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1));
+  border: 0;
+  margin-left: 10px;
+  color: #404040;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.paginate-links li a, .paginate-links li a:hover {
+  cursor: pointer;
+}
+
+.paginate-links li.active a {
+  background-color: #01babd;
+  color: white;
+}
+
+// .paginate-links li:not(.active) a:hover {
+//     border-color: #a5a5a5;
+//     color: #a5a5a5;
+//     text-decoration: none;
+// }

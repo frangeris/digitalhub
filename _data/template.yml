@@ -1,0 +1,15 @@
+name:
+category:
+description: >-
+
+country:
+updated: DD/MM/YYYY
+leader:
+position:
+phone:
+email:
+link:
+tags:
+  - Tag 1
+images:
+  - /assets/projects/<name>/1.jpg
